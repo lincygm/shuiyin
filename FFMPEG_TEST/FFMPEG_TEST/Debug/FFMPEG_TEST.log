@@ -1,0 +1,25 @@
+﻿Build started 2017/5/22 16:52:34.
+     1>Project "C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\FFMPEG_TEST\FFMPEG_TEST.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\FFMPEG_TEST\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FFMPEG_TEST.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FFMPEG_TEST.cpp
+         FFMPEG_TEST.cpp
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(47): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(104): warning C4996: 'av_find_stream_info': was declared deprecated
+                 c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\include\libavformat\avformat.h(1896) : see declaration of 'av_find_stream_info'
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(128): warning C4996: 'avcodec_alloc_frame': was declared deprecated
+                 c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\include\libavcodec\avcodec.h(3491) : see declaration of 'avcodec_alloc_frame'
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(129): warning C4996: 'avcodec_alloc_frame': was declared deprecated
+                 c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\include\libavcodec\avcodec.h(3491) : see declaration of 'avcodec_alloc_frame'
+     1>c:\users\goumou\documents\visual studio 2013\projects\ffmpeg_test\ffmpeg_test\ffmpeg_test.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\Debug\FFMPEG_TEST.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\Debug\FFMPEG_TEST.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\Debug\FFMPEG_TEST.lib" /MACHINE:X86 Debug\FFMPEG_TEST.obj
+         Debug\stdafx.obj
+         FFMPEG_TEST.vcxproj -> C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\Debug\FFMPEG_TEST.exe
+     1>Done Building Project "C:\Users\goumou\Documents\Visual Studio 2013\Projects\FFMPEG_TEST\FFMPEG_TEST\FFMPEG_TEST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
